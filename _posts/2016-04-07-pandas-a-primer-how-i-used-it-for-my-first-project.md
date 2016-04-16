@@ -116,7 +116,9 @@ matdf.to_csv('matYearCountry.csv')
 ```
 
 Lastly,
+
 ### Run a IPython notebook in a IPython notebook
+
 ```
 %run ipynbName.ipynb'
 ```
