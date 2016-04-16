@@ -2,7 +2,7 @@
 layout: post
 title: Firing Up Raspberry Pi
 category: Tech
-tags: [raspberry pi, setup, unbox, boot]
+tags: [raspberry-pi, setup, unbox, boot]
 ---
 
 Just got a Raspberry Pi 2 Model B to get my hands on some embedded system development.
