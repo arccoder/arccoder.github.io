@@ -17,7 +17,7 @@ Things that you need to get started :
 
 Before unboxing the Rpi you need to load the operating system on the micro SD card. You can buy micro SD cards that comes preloaded with an operating system, but I am taking this up as a DIY project.
 
-###Step 1: Download the operating system
+### Step 1: Download the operating system
 
 I downloaded the Raspbian image RASPBIAN JESSIE from [Ref1]([Ref]). The only reason i downloaded the Raspbian image is because the first link of the page says 
 > Raspbian is the Foundation’s official supported Operating System.
@@ -25,18 +25,18 @@ I downloaded the Raspbian image RASPBIAN JESSIE from [Ref1]([Ref]). The only rea
 
 Unzip the file.
 
-###Step 2: Download Win32DiskImager and run it.
+### Step 2: Download Win32DiskImager and run it.
 
 I am using a windows 7 system and I followed the steps on [Ref3]([Ref3]) to the T. Use the link on [Ref3]([Ref3]) to download the latest version of Win32DiskImager. Unzip it and and run it as administrator. If you don't run it as admin it will give you some permission error.
 
-###Step 3: Load your micro SD card with OS
+### Step 3: Load your micro SD card with OS
 Select the letter corresponding to the micro SD card drive on the right hand side of the Win32DiskImager window and select the unzipped image file (.img) from step 1. Press write. Sit back and relax, this should be done in a few minutes depending on your system.
 
 At the end you should get a message that suggests write successful.
 
 If you see this you are done. I have did not face issue with this so if you find some issues do let me know. The OS will take up around 3 GB space. It is advised to use a 8 GB card so you have ample space to save your stuff. Some blogs say it even works with 32 GB cards, I cannot confirm that. I have used 16 GB and that works.
 
-###Step 4: Connect the peripherals 
+### Step 4: Connect the peripherals 
 ![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/box.JPG "Boxed")
 
 Unbox the raspberry pi.
@@ -60,7 +60,7 @@ Correctly inserted SD card.
 
 It will not fit snugly and will pop out a little.
 
-###Step 5: Fire it up
+### Step 5: Fire it up
 
 Once everything is connected, I think it you to fire up the pi.
 
@@ -77,7 +77,7 @@ Connected to the internet.
 
 You are ready to experiment.
 
-###*References:*
+### *References:*
 [Ref1]:https://www.raspberrypi.org/downloads/raspbian/
 [Ref2]:https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
 [Ref3]:https://www.raspberrypi.org/documentation/installation/installing-images/README.md
