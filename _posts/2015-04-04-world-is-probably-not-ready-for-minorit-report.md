@@ -2,7 +2,7 @@
 layout: post
 title: World is, probably, not ready for Minority Report
 category: Business
-tags: [face, detection, recognition, privacy]
+tags: [face-detection, face-recognition, privacy]
 ---
 Many people I know in the tech industry were fascinated by the scene from Minority Report where the camera over the billboards recognizes the person by an iris scan. If not that level of sophistication there are several tech companies and researchers who are actively working of such an application using faces or some non-biometric scan involving a registered or anonymous tracking devices.
 
