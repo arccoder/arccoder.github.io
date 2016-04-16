@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Handwriting: A Relic of the Past?
-category: Tech
-tags: [blogger, C#]
+category: Business
+tags: [thoughts]
 ---
-
 A few days ago I listened to the Freakonomics podcast "Who Needs Handwriting?” It talked about how people are increasingly using different methods to write other than writing by hand using simple pen and paper. Typing or audio recording an activity on a to-do list are the most widely used methods to take notes. That’s a fair argument considering many of us, including me, type faster than we actually write by hand using a pen and paper.
 
 Another debatable issue discussed was cursive handwriting. Whether it should be mandatory for school children to learn and write cursive and whether cursive writing should be a measure of their ability? Interestingly, I was brought up learning to write cursive but unfortunately now I don't. I am not sure when I stopped writing cursive. Today my handwriting is a blend of cursive and print.
