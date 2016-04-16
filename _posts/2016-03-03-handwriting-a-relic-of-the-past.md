@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Handwriting: A Relic of the Past?
+title: Handwriting - A Relic of the Past?
 category: Business
 tags: [thoughts]
 ---
