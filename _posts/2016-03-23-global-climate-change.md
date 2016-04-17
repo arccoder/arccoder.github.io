@@ -852,11 +852,11 @@ $(function () {
 # Ipynb Script
 [Kaggle Script](https://www.kaggle.com/akshaychavan/d/berkeleyearth/climate-change-earth-surface-temperature-data/average-temperature-per-country-per-year)
 
-```
+```python
 # Calculate the average temperature per year for every country
-Collect that into data frame where the 
-years take the index values & the
-countries take the column names
+# Collect that into data frame where the 
+# years take the index values & the
+# countries take the column names
 
 import pandas as pd
 import numpy as np
@@ -866,8 +866,8 @@ import matplotlib.pyplot as plt
 data = pd.read_csv('Data/GlobalLandTemperaturesByCountry.csv')
 
 ## There are 2 ways the dt variable is formatted
-1. YYYY-MM-DD
-2. MM/DD/YYYY
+# 1. YYYY-MM-DD
+# 2. MM/DD/YYYY
 
 ### Split the dt coulmn into 'year', 'month', and 'date' columns
 def splitDT(datadt):
@@ -898,9 +898,9 @@ uYear = data.year.unique()
 len(uYear)
 
 ## Create a dataframe with 
-- a column 'year'
-- one column for each country
-  with average temp for each year across it
+# - a column 'year'
+# - one column for each country
+#   with average temp for each year across it
 
 uCountry = np.insert(uCountry, 0, 'year')
 matdf = pd.DataFrame(columns=uCountry)
@@ -909,12 +909,9 @@ matdf = matdf.set_index('year')
 matdf.describe()
 
 ### Loop through every country and find the average temperature from the data given for that country
-
-This loop is very slow. 
-
-I am pretty new to **pandas**.
-
-*Would be happy to get suggestions on how calculate such a matrix efficiently.*
+# This loop is very slow. 
+# I am pretty new to **pandas**.
+# *Would be happy to get suggestions on how calculate such a matrix efficiently.*
 
 for country in uCountry:
     avgTemp = []
