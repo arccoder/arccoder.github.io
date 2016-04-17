@@ -848,3 +848,82 @@ $(function () {
 </script>
 
 </html>
+
+# Ipynb Script
+[Kaggle Script](https://www.kaggle.com/akshaychavan/d/berkeleyearth/climate-change-earth-surface-temperature-data/average-temperature-per-country-per-year)
+
+```
+# Calculate the average temperature per year for every country
+Collect that into data frame where the 
+years take the index values & the
+countries take the column names
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+data = pd.read_csv('Data/GlobalLandTemperaturesByCountry.csv')
+
+## There are 2 ways the dt variable is formatted
+1. YYYY-MM-DD
+2. MM/DD/YYYY
+
+### Split the dt coulmn into 'year', 'month', and 'date' columns
+def splitDT(datadt):
+    l1 = datadt.str.split('-').tolist();
+    l2 = data.dt.str.split('/').tolist();
+
+    l = [];
+    for index in range(len(l1)):
+        if( len(l1[index]) > len(l2[index]) ):
+            l.append(l1[index]);
+        else:
+            elel2 = l2[index];
+            elel2.insert(0, elel2.pop())
+            l.append(elel2);
+    return l;
+            
+ymd = pd.DataFrame( splitDT(data.dt), columns = ['year','month','date'] )
+
+### Concat with the original data
+data = pd.concat([ymd, data], axis=1)
+
+### Unique Countries
+uCountry = data.Country.unique()
+len(uCountry)
+
+### Unique Years
+uYear = data.year.unique()
+len(uYear)
+
+## Create a dataframe with 
+- a column 'year'
+- one column for each country
+  with average temp for each year across it
+
+uCountry = np.insert(uCountry, 0, 'year')
+matdf = pd.DataFrame(columns=uCountry)
+matdf.year = uYear
+matdf = matdf.set_index('year')
+matdf.describe()
+
+### Loop through every country and find the average temperature from the data given for that country
+
+This loop is very slow. 
+
+I am pretty new to **pandas**.
+
+*Would be happy to get suggestions on how calculate such a matrix efficiently.*
+
+for country in uCountry:
+    avgTemp = []
+    for ind in range(len(uYear)):
+        mCY = data.AverageTemperature[(data.Country == country) & (data.year == uYear[ind] )].mean()
+        avgTemp.append(mCY)
+    matdf[country] = avgTemp
+
+matdf.tail()
+matdf.to_csv('matYearCountry.csv')
+
+```
