@@ -9,7 +9,7 @@
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 <!-- Data -->
-<script src="http://akshaychavan.com/pages/data/dataAvgTemp.js"></script>
+<script src="/blog/js/dataAvgTemp.js"></script>
 <!-- Style -->
 <style>
  #yearTitle {
