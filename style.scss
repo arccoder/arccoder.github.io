@@ -9,6 +9,8 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+$freelancerblue: #2C3E50;
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -152,7 +154,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-  background: #617D8A;
+  background: $freelancerblue;
   color: #FFFFFF;
 }
 
@@ -343,7 +345,7 @@ footer {
 //
 .share-page {
     text-align: center;
-    background: #617D8A;;
+    background: $freelancerblue;
     color: $white;
     padding: 8px 15px;
     border-radius: 5px;
