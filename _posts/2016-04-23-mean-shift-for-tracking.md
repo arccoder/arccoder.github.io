@@ -18,7 +18,9 @@ In this post, I am using a toy example to show how mean shift finds the center l
 **Output**
 ```
 Iteration : 1
+
 Zeroth moment : 1020
+
 First moments : 102510,102510
 Center : 101,101
 Location : 52,52,98,98
