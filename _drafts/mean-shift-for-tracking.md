@@ -52,6 +52,7 @@ Location : 100,100,98,98
 ![Mean Shift](https://raw.githubusercontent.com/arccoder/arccoder.github.io/master/blog/images/_posts/04_2016/meanshift.gif)
 
 **Mean shift Example**
+
 The image above shows how the mean shift converges to the center of the object location.
 
 The mean shift algorithm would not converge if the object does not lie within the extended search window.
