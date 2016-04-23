@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Handwriting - A Relic of the Past?
-category: Business
+category: 
 tags: [thoughts]
 ---
 A few days ago I listened to the Freakonomics podcast "Who Needs Handwriting?” It talked about how people are increasingly using different methods to write other than writing by hand using simple pen and paper. Typing or audio recording an activity on a to-do list are the most widely used methods to take notes. That’s a fair argument considering many of us, including me, type faster than we actually write by hand using a pen and paper.
