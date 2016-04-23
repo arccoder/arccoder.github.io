@@ -16,40 +16,8 @@ In this post, I am using a toy example to show how mean shift finds the center l
 <script src="https://gist.github.com/arccoder/22d0b9feb71a8ad3958a3811d1bed0b6.js"></script>
 
 **Output**
-```
-Iteration : 1
 
-Zeroth moment : 1020
-
-First moments : 102510,102510
-Center : 101,101
-Location : 52,52,98,98
-Iteration : 2
-Zeroth moment : 689520
-First moments : 86534760,86534760
-Center : 126,126
-Location : 77,77,98,98
-Iteration : 3
-Zeroth moment : 1511895
-First moments : 208641510,208641510
-Center : 138,138
-Location : 89,89,98,98
-Iteration : 4
-Zeroth moment : 2019855
-First moments : 290859120,290859120
-Center : 144,144
-Location : 95,95,98,98
-Iteration : 5
-Zeroth moment : 2301375
-First moments : 338302125,338302125
-Center : 147,147
-Location : 98,98,98,98
-Iteration : 6
-Zeroth moment : 2449020
-First moments : 363679470,363679470
-Center : 149,149
-Location : 100,100,98,98
-```
+<script src="https://gist.github.com/arccoder/eaa12b2f54f301c3b4aa5de3f51cc97c.js"></script>
 
 ![Mean Shift](https://raw.githubusercontent.com/arccoder/arccoder.github.io/master/blog/images/_posts/04_2016/meanshift.gif)
 
