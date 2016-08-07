@@ -12,26 +12,26 @@ I was looking for examples for the later option which is where I spent a week, b
 Enough of this  discussion lets see some code on to implemet this and I guess thats what many of you reading this blog are interested in.
 
 **Add jquery-ui package to your meteor app**
-```bash
+```
 meteor add mrt:jquery-ui
 ```
 or you can simply add `mrt:jquery-ui` in the packages file in .meteor folder.
 
 **Add a div to html**
-```html
+```
 <div id="datepicker"></div>
 ```
 This does not needs to be in a template.
 
 **Add a style sheet**
-```html
+```
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 ```
 You can add your custom style sheet as well.
 
 I wanted to use this date picker from the buttons I added in the template for each element in the list.
 For which I added an icon in the template.
-```html
+```
 <i class="glyphicon glyphicon-calendar buttoncliked"></i>
 ```
 Glyphicon's can be found in bootstrap. `glyphicon-calendar` inserted a calender icon. `buttoncliked` is the class assigned to the icon.
@@ -39,7 +39,7 @@ Glyphicon's can be found in bootstrap. `glyphicon-calendar` inserted a calender 
 The date picker added is not initialized because of which nothing is displayed on the screen.
 Once you intialize the date picker, a calender should show up on the screen.
 So whenever the icon is clicked we will initialize the date picker.
-```javascript
+```
 'click .buttoncliked': function(e) {
     e.preventDefault();
     $("#datepicker").datepicker({   // initializes the datepicker
