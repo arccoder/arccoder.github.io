@@ -13,7 +13,7 @@ Enough of this  discussion lets see some code on to implemet this and I guess th
 
 **Add jquery-ui package to your meteor app**
 
-```
+```bash
 meteor add mrt:jquery-ui
 ```
 
@@ -21,7 +21,7 @@ or you can simply add `mrt:jquery-ui` in the packages file in .meteor folder.
 
 **Add a div to html**
 
-```
+```html
 <div id="datepicker"></div>
 ```
 
@@ -29,7 +29,7 @@ This does not needs to be in a template.
 
 **Add a style sheet**
 
-```
+```html
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
 ```
 
@@ -38,7 +38,7 @@ You can add your custom style sheet as well.
 I wanted to use this date picker from the buttons I added in the template for each element in the list.
 For which I added an icon in the template.
 
-```
+```html
 <i class="glyphicon glyphicon-calendar buttoncliked"></i>
 ```
 
