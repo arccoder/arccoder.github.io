@@ -2,7 +2,7 @@
 layout: post
 title: Datepicker in Meteor
 category: Tech
-tags: [meteor, datepicker]
+tags: [meteor, datepicker, jquery-ui]
 ---
 
 I spent a week trying to get datepicker working in one of my meteor projects. After a preliminary search I found a few packages that show an easy way to add a date picker. But I was having a hard time adding a datepicker to a template and in my project the template was the one displaying elements in a list. Which means that I either had to add a datepicker dynamically for every element in the list or use one datepicker and access it from a number of places.
