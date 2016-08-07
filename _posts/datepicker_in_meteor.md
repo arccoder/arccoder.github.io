@@ -30,7 +30,7 @@ This does not needs to be in a template.
 You can add your custom style sheet as well.
 
 I wanted to use this date picker from the buttons I added in the template for each element in the list.
-For which I added an icon in the template
+For which I added an icon in the template.
 ```html
 <i class="glyphicon glyphicon-calendar buttoncliked"></i>
 ```
@@ -63,3 +63,7 @@ Implement the `onSelect` callback function.
 This way you can use one datepicker on your entire page from different initialization points.
 
 You display the datepicker as an overlay on the page and block access to anything else on the page till a date is selected or the datepicker is closed.
+
+**References:**
+
+[How to get the date from jQuery UI datepicker](http://stackoverflow.com/questions/4919873/how-to-get-the-date-from-jquery-ui-datepicker)
