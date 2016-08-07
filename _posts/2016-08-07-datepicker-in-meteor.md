@@ -48,7 +48,7 @@ The date picker added is not initialized because of which nothing is displayed o
 Once you intialize the date picker, a calender should show up on the screen.
 So whenever the icon is clicked we will initialize the date picker.
 
-```
+```javascript
 'click .buttoncliked': function(e) {
     e.preventDefault();
     $("#datepicker").datepicker({   // initializes the datepicker
