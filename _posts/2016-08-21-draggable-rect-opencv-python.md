@@ -9,6 +9,8 @@ If you use [opencv](http://opencv.org/) then you probabaly are interested in com
 
 I have already implemented a rectangle dragging algorithm in javascript '[selectincanvas](https://github.com/arccoder/selectincanvas.js)'. Here I have implemented the same algorithm using opencv in python. Some time back I learned about the Opencv's [User Interface](http://docs.opencv.org/2.4/modules/highgui/doc/user_interface.html) module and I always wanted a quick way of dragging a rectangle on an image using opencv. I was finally able to implement draging and adjusting a rectangle on an image window within opencv and get the coordinates of the rectangle.
 
+![Preview gif](https://cdn.rawgit.com/arccoder/opencvdragrect/master/preview.gif "Preview Image")
+
 The implementation and the documentation can be found in this repo(https://github.com/arccoder/opencvdragrect).
 
 One issue I faced with the python implementation is that if you drag the rectangle for a long time then the stack overflows. I implemented this in python but this can also be implemented in c++.
