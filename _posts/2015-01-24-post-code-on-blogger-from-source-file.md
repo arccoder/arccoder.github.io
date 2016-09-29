@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Post code on blogger from source file
+description: Automated way to convert a source code file to a blogger blog post
 category: Tech
 tags: [blogger, C#]
 ---
