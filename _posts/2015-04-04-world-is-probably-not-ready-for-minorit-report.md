@@ -1,7 +1,7 @@
 ---
 layout: post
 title: World is, probably, not ready for Minority Report
-description: Consumers are not ready for identification using bio-metrics as wesaw in movie minority report.
+description: Consumers are not ready for identification using bio-metrics as we saw in movie minority report.
 category: Business
 tags: [face-detection, face-recognition, privacy]
 ---
