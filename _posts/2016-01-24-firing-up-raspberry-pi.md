@@ -37,24 +37,24 @@ At the end you should get a message that suggests write successful.
 If you see this you are done. I have did not face issue with this so if you find some issues do let me know. The OS will take up around 3 GB space. It is advised to use a 8 GB card so you have ample space to save your stuff. Some blogs say it even works with 32 GB cards, I cannot confirm that. I have used 16 GB and that works.
 
 ### Step 4: Connect the peripherals 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/box.JPG "Boxed")
+![Boxed](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/box.JPG)
 
 Unbox the raspberry pi.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/unbox.JPG "Unboxed")
+![Unboxed](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/unbox.JPG)
 
 Connect the peripherals 2 to 6 from the list. 
 DO NOT SWITCH ON POWER.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/connected.JPG "Connected")
+![Connected](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/connected.JPG)
 
 One weird thing that I experienced while inserting the micro SD card is that the card does not go entirely inside the slot. There are 2 states the card stays in the slot one where the card is little outside than the other. Image below. First I thought it did not fit well, so I surfed through a few videos to check and found that that's how it is suppose to be.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/incorrect.jpg "Incorrect")
+![Incorrect](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/incorrect.jpg)
 
 Incorrectly inserted SD card.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/correct.jpg "Correct")
+![Correct](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/correct.jpg)
 
 Correctly inserted SD card.
 
@@ -67,11 +67,11 @@ Once everything is connected, I think it you to fire up the pi.
 There are 2 lights that you have to look at after the power up.
 The RED light denotes the power the board is powered and the GREEN light shows the state of internet connectivity.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/start.JPG "Fired Up")
+![Fired Up](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/start.JPG)
 
 Start Up screen.
 
-![alt text](https://raw.githubusercontent.com/officiallytech/officiallytech.github.io/master/images/_posts/01_2016/internet.JPG "Connected to the internet")
+![Connected to the internet](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/01_2016/internet.JPG)
 
 Connected to the internet.
 
