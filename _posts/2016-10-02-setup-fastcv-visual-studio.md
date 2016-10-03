@@ -14,9 +14,9 @@ As I using VC++ 2010 Express, I shall be using the _libfastcv.lib_ in the MD fol
 
 Now create an empty C++ project in visual studio and include the paths for header and libs in the project properties as shown in the images below.
 
-![Include Directories](/blog/images/_posts/10_2016/fastcvsetup1.JPG)
-![Library Directories](/blog/images/_posts/10_2016/fastcvsetup2.JPG)
-![Additinal Dependencies](/blog/images/_posts/10_2016/fastcvsetup3.JPG)
+![Include Directories](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup1.JPG)
+![Library Directories](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup2.JPG)
+![Additinal Dependencies](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup3.JPG)
 
 We are almost there. Create a source file with the following code in it.
 
