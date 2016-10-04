@@ -1,23 +1,23 @@
 ---
 layout: post
 title: Global Climate Change
-category: Tech
+category: Technology
 tags: [visualization]
 ---
 
 <html>
-<!-- jQuery -->
+
 <script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!-- HighCharts -->
+
 <script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/maps/modules/map.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
-<!-- Data -->
+
 <script src="/blog/js/dataAvgTemp.js"></script>
-<!-- Style -->
+
 <style>
  #yearTitle {
   color: #000;
