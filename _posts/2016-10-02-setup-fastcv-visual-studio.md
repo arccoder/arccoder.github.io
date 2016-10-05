@@ -2,7 +2,7 @@
 layout: post
 title: Setup FastCV on Visual Studio 2010
 description: Steps to setup FastCV 1.7.1 on Visual Studio 2010 Express
-category: Technology
+category: Tech
 tags: [qualcomm, fastcv, visual studio, opencv, setup]
 ---
 
