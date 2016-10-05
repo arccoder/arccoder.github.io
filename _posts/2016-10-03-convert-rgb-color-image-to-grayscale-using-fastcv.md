@@ -2,7 +2,7 @@
 layout: post
 title: Convert RGB color image to Grayscale using FastCV
 description: Using fcvColorRGB888ToGrayu8 from FastCV to convert rgb to grayscale image
-category: Technology
+category: Tech
 tags: [qualcomm, fastcv, rgb2gray, rgb to gray, color conversion]
 ---
 
