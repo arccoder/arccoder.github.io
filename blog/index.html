@@ -12,6 +12,7 @@ layout: default
     {% for post in site.posts %}
     <article class="post">
         <div>
+            <br>
             <div style="float: left;width: 150px">
                 <p>{{ post.date | date_to_string }}</p>
             </div>
@@ -19,12 +20,7 @@ layout: default
                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             </div>
         </div>
-        <!--
-        <div class="entry">
-            {{ post.excerpt }}
-        </div>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        -->
+        <br>
     </article>
     {% endfor %}
 </div>
