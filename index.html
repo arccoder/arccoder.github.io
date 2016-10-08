@@ -1,438 +1,278 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html lang="en">
-<head>    
-    <!--     
-    <script type="text/javascript">
-        var host = "akshaychavan.com";
-        if ((host == window.location.host) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-    </script> -->
-
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Akshay Chavan" name="author">
-    <meta content="Computer Vision | Machine Learning | Image Processing" name="description">
-    <meta content="akshay chavan, arccoder, officiallytech, computer vision, machine learning, image processing" name="keywords">
-    <meta content="Document" name="Resource-type">
-    
-    <title>Akshay Chavan</title>
-<!--     <link rel="canonical" href=" { { site.url } }{ { page.url } }" /> -->
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="academicons-1.7.0/css/academicons.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-          rel="stylesheet" type="text/css">
-    
-    <!-- For goodreads widget -->
-    <style media="screen" type="text/css">
-        .gr_grid_container {
-          /* customize grid container div here. eg: width: 500px; */
-        }
-
-        .gr_grid_book_container {
-          /* customize book cover container div here */
-          float: left;
-          width: 98px;
-          height: 160px;
-          padding: 0px 0px;
-          overflow: hidden;
-        }
-    </style>
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body class="index" id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button class="navbar-toggle" 
-                        data-target="#bs-example-navbar-collapse-1" 
-                        data-toggle="collapse" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span> 
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button> 
-                <a class="navbar-brand" href="#page-top">Akshay Chavan</a>
-            </div>
-            
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#links">Links</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="blog/" 
-                           target="_blank">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- About Section -->
-    <section class="success" id="about" style="background-color:white;color:#2c3e50;">
-        <div class="container">
-            <div align="center" class="row">
-                <br>
-                <br>
-                <h2>Akshay Chavan</h2>
-                <br>
-                <!--<hr class="star-light">-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:right; padding-left:20%;">
-                    <p>Software Professional<br>
-                    Perpetual Learner<br>
-                    Works @Qualcomm<br>
-                    SousChef @home<br></p>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:left; padding-right:20%;">
-                    <p>Consider me as a perpetual learner interested in solving
-                    problems effectively and efficiently. Innovation and
-                    challenge excite me. I’m a software professional
-                    experienced in <b>computer vision, machine learning, and
-                    image processing</b> projects. I develop mainly in
-                    <b>C++</b> as well as possess hands on experience in many
-                    other languages. Proficient in designing vision products
-                    and libraries, I am always looking for new projects to work
-                    on.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Skills Section -->
-    <section class="success" id="skills" style="color:#2c3e50;">
-        <div class="container">
-            <div align="center" class="row">
-                <br>
-                <br>
-                <h2>Skills</h2>
-                <!--<hr class="star-light">-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart">
-                    <h3>Implementation</h3>
-                    <br>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart2">
-                    <h3>Application</h3>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div align="center" class="row">
-                <br>
-                <br>
-                <h2>Projects</h2>
-                <!--<hr class="star-light">-->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" 
-                       href="https://github.com/arccoder/selectincanvasjs" 
-                       target="_blank">
-                        <br>
-                        <h3>selectInCanvas.js</h3>
-                        <p>Enables a drag able rectangle on a canvas</p>
-                        <br>
-                    </a> 
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="img-responsive" 
-                       href="https://github.com/arccoder/kaggle-climatechange" 
-                       target="_blank">
-                        <br>
-                        <h3>kaggle-climate change</h3>
-                        <p>visualizing the global temperature data set from kaggle</p>
-                        <br>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="img-responsive" 
-                       href="https://github.com/arccoder/javapackage2treegraph" 
-                       target="_blank">
-                        <br>
-                        <h3>javapackage 2 treegraph</h3>
-                        <p>displays a java package contents as a collapsible tree</p>
-                        <br>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="img-responsive" 
-                       href="https://github.com/arccoder/Code2Blogger" 
-                       target="_blank">
-                        <br>
-                        <h3>Code2Blogger</h3>
-                        <p>semi automated code publishing to blogger directly from the source file</p>
-                        <br>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Links Grid Section -->
-    <section id="links" style="background-color:#D3D3D3;">
-        <div class="container">
-            <div align="center" class="row">
-                <br>
-                <br>
-                <h2>Links</h2>
-                <p>something useful</p>
-                <!--<hr class="star-light">-->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href="https://www.udacity.com/course/deep-learning--ud730" target="_blank">
-                        <br>
-                        <h5>Udacity - Deep Learning</h5>
-                        <br>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href="https://class.coursera.org/ml-003/lecture" target="_blank">
-                        <br>
-                        <h5>Coursera - Machine Learning</h5>
-                        By Andrew Ng
-                        <br>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href="http://choosealicense.com/" target="_blank">
-                        <br>
-                        <h5>Choose a license</h5>
-                        Helps to choose an open source license
-                        <br>
-                    </a>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href="http://neuralnetworksanddeeplearning.com/" target="_blank">
-                        <br>
-                        <h5>Neural Networks and Deep Learning</h5>
-                        Free online book
-                        <br>
-                    </a>
-                </div>
-            </div>
+<!-- About Section -->
+<section class="success" id="about" style="background-color:white;color:#2c3e50;">
+    <div class="container">
+        <div align="center" class="row">
             <br>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <h3>Bookshelf</h3>
-                <div id="gr_grid_widget_1470879130">
-                </div>
+            <br>
+            <h2>Akshay Chavan</h2>
+            <br>
+            <!--<hr class="star-light">-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:right; padding-left:20%;">
+                <p>Software Professional<br>
+                Perpetual Learner<br>
+                Works @Qualcomm<br>
+                SousChef @home<br></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:left; padding-right:20%;">
+                <p>Consider me as a perpetual learner interested in solving
+                problems effectively and efficiently. Innovation and
+                challenge excite me. I’m a software professional
+                experienced in <b>computer vision, machine learning, and
+                image processing</b> projects. I develop mainly in
+                <b>C++</b> as well as possess hands on experience in many
+                other languages. Proficient in designing vision products
+                and libraries, I am always looking for new projects to work
+                on.</p>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <!-- <h3>Around the Web</h3> -->
-                        <ul class="list-inline">
-                            <li>
-                                <a class="btn-social btn-outline" 
-                                   href="https://github.com/arccoder" 
-                                   target="_blank">
-                                    <i class="fa fa-fw fa-github"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="btn-social btn-outline" 
-                                   href="https://scholar.google.com/citations?user=agEAOgsAAAAJ"
-                                   target="_blank">
-                                    <i class="ai ai-google-scholar"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="btn-social btn-outline" 
-                                   href="https://twitter.com/arctwtz" 
-                                   target="_blank">
-                                    <i class="fa fa-fw fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="btn-social btn-outline" 
-                                   href="https://www.linkedin.com/in/akshaychavan"
-                                   target="_blank">
-                                    <i class="fa fa-fw fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="btn-social btn-outline" 
-                                   href="mailto:chavanakshay9@gmail.com?Subject=From_Site:">
-                                    <i class="fa fa-fw fa-envelope"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-below">
-            <div class="container">
-                <div align="center" class="row">
-                    Copyright &copy; 2016
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script> 
+</section>
     
-    <!-- Plugin JavaScript --> 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<!-- Skills Section -->
+<section class="success" id="skills" style="color:#2c3e50;">
+    <div class="container">
+        <div align="center" class="row">
+            <br>
+            <br>
+            <h2>Skills</h2>
+            <!--<hr class="star-light">-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart">
+                <h3>Implementation</h3>
+                <br>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart2">
+                <h3>Application</h3>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div align="center" class="row">
+            <br>
+            <br>
+            <h2>Projects</h2>
+            <!--<hr class="star-light">-->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                <a class="img-responsive" href="https://github.com/arccoder/selectincanvasjs" target="_blank">
+                    <br>
+                    <h3>selectInCanvas.js</h3>
+                    <p>Enables a drag able rectangle on a canvas</p>
+                    <br>
+                </a> 
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a class="img-responsive" 
+                   href="https://github.com/arccoder/kaggle-climatechange" 
+                   target="_blank">
+                    <br>
+                    <h3>kaggle-climate change</h3>
+                    <p>visualizing the global temperature data set from kaggle</p>
+                    <br>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a class="img-responsive" 
+                   href="https://github.com/arccoder/javapackage2treegraph" 
+                   target="_blank">
+                    <br>
+                    <h3>javapackage 2 treegraph</h3>
+                    <p>displays a java package contents as a collapsible tree</p>
+                    <br>
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a class="img-responsive" 
+                   href="https://github.com/arccoder/Code2Blogger" 
+                   target="_blank">
+                    <br>
+                    <h3>Code2Blogger</h3>
+                    <p>semi automated code publishing to blogger directly from the source file</p>
+                    <br>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Links Grid Section -->
+<section id="links" style="background-color:#D3D3D3;">
+    <div class="container">
+        <div align="center" class="row">
+            <br>
+            <br>
+            <h2>Links</h2>
+            <p>something useful</p>
+            <!--<hr class="star-light">-->
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                <a class="img-responsive" href="https://www.udacity.com/course/deep-learning--ud730" target="_blank">
+                    <br>
+                    <h5>Udacity - Deep Learning</h5>
+                    <br>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                <a class="img-responsive" href="https://class.coursera.org/ml-003/lecture" target="_blank">
+                    <br>
+                    <h5>Coursera - Machine Learning</h5>
+                    By Andrew Ng
+                    <br>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                <a class="img-responsive" href="http://choosealicense.com/" target="_blank">
+                    <br>
+                    <h5>Choose a license</h5>
+                    Helps to choose an open source license
+                    <br>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                <a class="img-responsive" href="http://neuralnetworksanddeeplearning.com/" target="_blank">
+                    <br>
+                    <h5>Neural Networks and Deep Learning</h5>
+                    Free online book
+                    <br>
+                </a>
+            </div>
+        </div>
+        <br>
+        <!-- For goodreads widget -->
+        <style media="screen" type="text/css">
+            .gr_grid_container {
+                /* customize grid container div here. eg: width: 500px; */
+            }
+
+            .gr_grid_book_container {
+                /* customize book cover container div here */
+                float: left;
+                width: 98px;
+                height: 160px;
+                padding: 0px 0px;
+                overflow: hidden;
+            }
+        </style>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <h3>Bookshelf</h3>
+            <div id="gr_grid_widget_1470879130">
+            </div>
+        </div>
+    </div>
+</section>
     
-    <!-- Bootstrap Core JavaScript --> 
-    <script src="js/bootstrap.min.js"></script> 
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
 
-    <!-- Custom Theme JavaScript --> 
-    <script src="js/freelancer.js"></script> 
-     
-    <!-- D3 -->
-    <script data-require="d3@3.5.3" data-semver="3.5.3" src="js/d3.v3.min.js"></script> 
-    
-    <!-- Doughnut Charts for skills -->
-    <script>
-      var width = 360;
-      var height = 360;
-      var radius = 180;
-      var color = d3.scale.category20b();
+<!-- D3 -->
+<script data-require="d3@3.5.3" data-semver="3.5.3" src="js/d3.v3.min.js"></script> 
 
-      var svg = d3.select("#donutchart")
-            .append("svg")
-            .attr("height", height)
-            .attr("width", width);
-      var donutgroup = svg.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
+<!-- Doughnut Charts for skills -->
+<script>
+  var width = 360;
+  var height = 360;
+  var radius = 180;
+  var color = d3.scale.category20b();
 
-      var p = Math.PI * 2;
-      var innercircles = 5;
-      //var innerradius = [270, 230, 190, 150, 110];
-      //var outerradius = [300, 260, 220, 180, 140];
-      var xoffset = [-35, -55, -55, -38, -72];
-      var startangle = [0, 0, 0, 0, 0];
-      var endangle = [95, 95, 80, 70, 60];
-      var fillcolor = ['#FA6900', '#FABF3B', '#E0E4CC', '#A7DBDB', '#69D2E7'];
-      var labels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
-      var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
+  var svg = d3.select("#donutchart")
+        .append("svg")
+        .attr("height", height)
+        .attr("width", width);
+  var donutgroup = svg.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
-      var svgquadrant = donutgroup.append("g")
-                    .attr("id", "quadrant");
+  var p = Math.PI * 2;
+  var innercircles = 5;
+  //var innerradius = [270, 230, 190, 150, 110];
+  //var outerradius = [300, 260, 220, 180, 140];
+  var xoffset = [-35, -55, -55, -38, -72];
+  var startangle = [0, 0, 0, 0, 0];
+  var endangle = [95, 95, 80, 70, 60];
+  var fillcolor = ['#FA6900', '#FABF3B', '#E0E4CC', '#A7DBDB', '#69D2E7'];
+  var labels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
+  var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
 
-      for (i = 0; i < innercircles; i++)
-      {
-        var arcname = "arc" + i;
-        arcname = d3.svg.arc()
-              .innerRadius(radius-20 - i*30)
-              .outerRadius(radius - i*30)
-              .startAngle(myScale(startangle[i]))
-              .endAngle(myScale(endangle[i]));
+  var svgquadrant = donutgroup.append("g")
+                .attr("id", "quadrant");
 
-        svgquadrant.append("path")
-              .attr('id', 'p' + i)
-              .attr("d", arcname)
-              .attr('fill', fillcolor[i]);
+  for (i = 0; i < innercircles; i++)
+  {
+    var arcname = "arc" + i;
+    arcname = d3.svg.arc()
+          .innerRadius(radius-20 - i*30)
+          .outerRadius(radius - i*30)
+          .startAngle(myScale(startangle[i]))
+          .endAngle(myScale(endangle[i]));
 
-        svgquadrant.append("text")
-              .attr("d", arcname)
-              .attr("x", xoffset[i])
-              .attr("y", -(radius-18 - i*30)-3)
-              .text(labels[i]);
-      }
+    svgquadrant.append("path")
+          .attr('id', 'p' + i)
+          .attr("d", arcname)
+          .attr('fill', fillcolor[i]);
 
-      // svgquadrant.append("text")
-      //         .attr("d", arcname)
-      //         .attr("x", -25)
-      //         .attr("y", 5)
-      //         .text("TOOLS");
+    svgquadrant.append("text")
+          .attr("d", arcname)
+          .attr("x", xoffset[i])
+          .attr("y", -(radius-18 - i*30)-3)
+          .text(labels[i]);
+  }
 
-      var svg2 = d3.select("#donutchart2")
-            .append("svg")
-            .attr("height", height)
-            .attr("width", width);
-      var donutgroup2 = svg2.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
+  // svgquadrant.append("text")
+  //         .attr("d", arcname)
+  //         .attr("x", -25)
+  //         .attr("y", 5)
+  //         .text("TOOLS");
 
-      xoffset = [-120, -125, -122, -98, -95];
-      startangle = [0, 0, 0, 0, 0];
-      endangle = [75, 75, 85, 70, 60]
-      labels = ['Computer Vision', 'Machine Learning', 'Image Processing', 'Data Analysis', 'Optimization'];
+  var svg2 = d3.select("#donutchart2")
+        .append("svg")
+        .attr("height", height)
+        .attr("width", width);
+  var donutgroup2 = svg2.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
-      var svgquadrant2 = donutgroup2.append("g")
-                    .attr("id", "quadrant");
+  xoffset = [-120, -125, -122, -98, -95];
+  startangle = [0, 0, 0, 0, 0];
+  endangle = [75, 75, 85, 70, 60]
+  labels = ['Computer Vision', 'Machine Learning', 'Image Processing', 'Data Analysis', 'Optimization'];
 
-      for (i = 0; i < innercircles; i++)
-      {
-        var arcname = "arc" + i;
-        arcname = d3.svg.arc()
-              .innerRadius(radius-20 - i*30)
-              .outerRadius(radius - i*30)
-              .startAngle(myScale(startangle[i]))
-              .endAngle(myScale(endangle[i]));
+  var svgquadrant2 = donutgroup2.append("g")
+                .attr("id", "quadrant");
 
-        svgquadrant2.append("path")
-              .attr('id', 'p' + i)
-              .attr("d", arcname)
-              .attr('fill', fillcolor[i]);
+  for (i = 0; i < innercircles; i++)
+  {
+    var arcname = "arc" + i;
+    arcname = d3.svg.arc()
+          .innerRadius(radius-20 - i*30)
+          .outerRadius(radius - i*30)
+          .startAngle(myScale(startangle[i]))
+          .endAngle(myScale(endangle[i]));
 
-        svgquadrant2.append("text")
-              .attr("d", arcname)
-              .attr("x", xoffset[i])
-              .attr("y", -(radius-18 - i*30)-3)
-              .text(labels[i]);
-      }
+    svgquadrant2.append("path")
+          .attr('id', 'p' + i)
+          .attr("d", arcname)
+          .attr('fill', fillcolor[i]);
 
-      // svgquadrant2.append("text")
-      //         .attr("d", arcname)
-      //         .attr("x", -38)
-      //         .attr("y", 5)
-      //         .text("RESEARCH");
-    </script> 
-    <script charset="utf-8" 
-            src="https://www.goodreads.com/review/grid_widget/24313083.Akshay's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1470879130"
-            type="text/javascript">
-    </script>
-</body>
-</html>
+    svgquadrant2.append("text")
+          .attr("d", arcname)
+          .attr("x", xoffset[i])
+          .attr("y", -(radius-18 - i*30)-3)
+          .text(labels[i]);
+  }
+
+  // svgquadrant2.append("text")
+  //         .attr("d", arcname)
+  //         .attr("x", -38)
+  //         .attr("y", 5)
+  //         .text("RESEARCH");
+</script> 
+<script charset="utf-8" 
+        src="https://www.goodreads.com/review/grid_widget/24313083.Akshay's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1470879130"
+        type="text/javascript">
+</script>
