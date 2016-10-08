@@ -11,33 +11,62 @@
     <link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <!--
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          -->
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="/blog/">{{ site.name }}</a></h1>
-            <!--<p class="site-description">{{ site.description }}</p>-->
-            <br>
-          </div>
-          
-          <nav>
-            <!--<a href="{{ site.baseurl }}/">Blog</a>-->
-            <a href="http://www.akshaychavan.com/" target="_blank">
-              <img src="/blog/images/home64_2.png" alt="Home Site" style="width:32px;height:32px;">
-            </a>
-          </nav>
-          
-        </header>
-      </div>
-    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button class="navbar-toggle" 
+                        data-target="#bs-example-navbar-collapse-1" 
+                        data-toggle="collapse" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span> 
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> 
+                <a class="navbar-brand" href="#page-top">Akshay Chavan</a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#links">Links</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="blog/" 
+                           target="_blank">
+                            Blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
     <div id="main" role="main" class="container">
       {{ content }}
