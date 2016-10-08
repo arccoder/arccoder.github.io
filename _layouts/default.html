@@ -1,92 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ site.name }} - {% if page.title %}{{ page.title }}{% endif %}</title>
-   {% seo %}
+    <head>
+        
+        <title>{{ site.name }} - {% if page.title %}{{ page.title }}{% endif %}</title>
+        {% seo %}
     
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" />
+        <link rel="stylesheet" type="text/css" href="/style.css" />
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" />
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="/css/freelancer.css" rel="stylesheet">
     
-  </head>
+    </head>
 
-  <body>
+    <body>
     
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
             
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button class="navbar-toggle" 
-                        data-target="#bs-example-navbar-collapse-1" 
-                        data-toggle="collapse" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span> 
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button> 
-                <a class="navbar-brand" href="#page-top">Akshay Chavan</a>
-            </div>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button class="navbar-toggle" 
+                            data-target="#bs-example-navbar-collapse-1" 
+                            data-toggle="collapse" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span> 
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> 
+                    <a class="navbar-brand" href="#page-top">Akshay Chavan</a>
+                </div>
             
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#links">Links</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="blog/" 
-                           target="_blank">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Projects</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#links">Links</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="blog/" target="_blank">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div id="main" role="main" class="container">
+            {{ content }}
         </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+        <div class="wrapper-footer">
+            <div class="container">
+                <footer class="footer">
+                    {% include svg-icons.html %}
+                </footer>
+            </div>
+        </div>
 
         {% include analytics.html %}
     </body>
   
     <!-- Bootstrap Core JavaScript --> 
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="/js/bootstrap.min.js"></script> 
 
     <!-- Custom Theme JavaScript --> 
-    <script src="js/freelancer.js"></script>
+    <script src="/js/freelancer.js"></script>
   
 </html>
