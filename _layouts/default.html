@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+
         <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
         {% seo %}
-    
+
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -15,7 +15,7 @@
         <link href="/css/bootstrap.css" rel="stylesheet">
         <!-- Custom CSS -->
         <link href="/css/freelancer.css" rel="stylesheet">
-        
+
         <!-- Custom Fonts -->
         <link href="/academicons-1.7.0/css/academicons.css" rel="stylesheet" type="text/css">
         <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,24 +32,24 @@
     </head>
 
     <body class="index" id="page-top">
-    
+
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-            
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
-                    <button class="navbar-toggle" 
-                            data-target="#bs-example-navbar-collapse-1" 
+                    <button class="navbar-toggle"
+                            data-target="#bs-example-navbar-collapse-1"
                             data-toggle="collapse" type="button">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span> 
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button> 
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="{{ site.url }}">Akshay Chavan</a>
                 </div>
-            
+
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
@@ -78,71 +78,16 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
-        
+
         <!-- To layout below the header -->
         <h1>{{ page.title }}</h1>
         <br><br><br><br><br><br>
-        
+
         <div id="main" role="main" class="container">
             {{ content }}
         </div>
 
-        <!-- Footer -->
-        <footer class="text-center">
-            <div class="footer-above">
-                <div class="container">
-                    <div class="row">
-                        <div class="footer-col">
-                            <!-- <h3>Around the Web</h3> -->
-                            <ul class="list-inline">
-                                <li>
-                                    <a class="btn-social btn-outline" 
-                                       href="https://github.com/arccoder" 
-                                       target="_blank">
-                                        <i class="fa fa-fw fa-github"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="btn-social btn-outline" 
-                                       href="https://scholar.google.com/citations?user=agEAOgsAAAAJ"
-                                       target="_blank">
-                                        <i class="ai ai-google-scholar"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="btn-social btn-outline" 
-                                       href="https://twitter.com/arctwtz" 
-                                       target="_blank">
-                                        <i class="fa fa-fw fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="btn-social btn-outline" 
-                                       href="https://www.linkedin.com/in/akshaychavan"
-                                       target="_blank">
-                                        <i class="fa fa-fw fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="btn-social btn-outline" 
-                                       href="mailto:chavanakshay9@gmail.com?Subject=From_Site:">
-                                        <i class="fa fa-fw fa-envelope"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-below">
-                <div class="container">
-                    <div align="center" class="row">
-                        Copyright &copy; 2016
-                    </div>
-                </div>
-            </div>
-        </footer>
+        {% include footer.html %}
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
         <div class="scroll-top page-scroll visible-xs visible-sm">
@@ -150,20 +95,20 @@
                 <i class="fa fa-chevron-up"></i>
             </a>
         </div>
-        
+
         {% include analytics.html %}
     </body>
-    
-    <!-- jQuery -->
-    <script src="/js/jquery.js"></script> 
-    
-    <!-- Plugin JavaScript --> 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
-    
-    <!-- Bootstrap Core JavaScript --> 
-    <script src="/js/bootstrap.min.js"></script> 
 
-    <!-- Custom Theme JavaScript --> 
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
     <script src="/js/freelancer.js"></script>
-  
+
 </html>
