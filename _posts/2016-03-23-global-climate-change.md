@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Global Climate Change
-category: Technology
-tags: [visualization]
+category: Tech
+tags: [visualization, js, climate]
 ---
 
 <html>
