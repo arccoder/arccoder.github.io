@@ -18,7 +18,7 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
                 Perpetual Learner<br>
                 Works @Qualcomm<br>
                 Studied @TexasTech<br>
-                SousChef @home<br></p>
+                SousChef @Home<br></p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:left; padding-right:20%;">
                 <p>Consider me as a perpetual learner interested in solving
@@ -56,7 +56,7 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
     </div>
 </section>
 
-<!-- Portfolio Grid Section -->
+<!-- Projects Grid Section -->
 <section id="portfolio">
     <div class="container">
         <div align="center" class="row">
@@ -65,42 +65,14 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
             <hr>
             <br>
             <!--<hr class="star-light">-->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="/opencvdragrect/" target="_blank">
-                    <h3>opencvdragrect</h3>
-                    <p>Enables a drag able rectangle on a image using opencv</p>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="/selectincanvas.js/" target="_blank">
-                    <h3>selectInCanvas.js</h3>
-                    <p>Enables a drag able rectangle on a canvas</p>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive"
-                   href="https://github.com/arccoder/kaggle-climatechange"
-                   target="_blank">
-                    <h3>kaggle-climate change</h3>
-                    <p>visualizing the global temperature data set from kaggle</p>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive"
-                   href="https://github.com/arccoder/javapackage2treegraph"
-                   target="_blank">
-                    <h3>javapackage 2 treegraph</h3>
-                    <p>displays a java package contents as a collapsible tree</p>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive"
-                   href="https://github.com/arccoder/Code2Blogger"
-                   target="_blank">
-                    <h3>Code2Blogger</h3>
-                    <p>semi automated code publishing to blogger directly from the source file</p>
-                </a>
-            </div>
+            {% for project in site.data.projects %}
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                    <a class="img-responsive" href={{ project.link }} target="_blank">
+                        <h3>{{ project.title }}</h3>
+                        <p>{{ project.tagline }}</p>
+                    </a>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>
@@ -115,29 +87,14 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
             <p>something useful</p>
             <br>
             <!--<hr class="star-light">-->
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="https://www.udacity.com/course/deep-learning--ud730" target="_blank">
-                    <h4>Udacity - Deep Learning</h4>
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="https://class.coursera.org/ml-003/lecture" target="_blank">
-                    <h4>Coursera - Machine Learning</h4>
-                    By Andrew Ng
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="http://choosealicense.com/" target="_blank">
-                    <h4>Choose a license</h4>
-                    Helps to choose an open source license
-                </a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                <a class="img-responsive" href="http://neuralnetworksanddeeplearning.com/" target="_blank">
-                    <h4>Neural Networks and Deep Learning</h4>
-                    Free online book
-                </a>
-            </div>
+            {% for link in site.data.links %}
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
+                    <a class="img-responsive" href={{ link.link }} target="_blank">
+                        <h4>{{ link.title }}</h4>
+                        {{ link.tagline }}
+                    </a>
+                  </div>
+            {% endfor %}
         </div>
         <br>
         <!-- For goodreads widget -->

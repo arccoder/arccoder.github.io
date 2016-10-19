@@ -1,0 +1,22 @@
+[
+    {
+        "link":"https://www.udacity.com/course/deep-learning--ud730",
+        "title":"Udacity - Deep Learning",
+        "tagline":""
+    },
+    {
+        "link":"https://class.coursera.org/ml-003/lecture",
+        "title":"Coursera - Machine Learning",
+        "tagline":"By Andrew Ng"
+    },
+    {
+        "link":"http://choosealicense.com/",
+        "title":"Choose a license",
+        "tagline":"Helps to choose an open source license"
+    },
+    {
+        "link":"http://neuralnetworksanddeeplearning.com/",
+        "title":"Neural Networks and Deep Learning",
+        "tagline":"Free online book"
+    }
+]
