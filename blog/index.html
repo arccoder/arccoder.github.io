@@ -5,31 +5,27 @@ layout: default
 <h1>#officiallytech - Blog</h1>
 <br><br>
 <h4>
-    <a href="/blog/category/">List By Category</a> 
-    <b>|</b> 
+    <a href="/blog/category/">List By Category</a>
+    <b>|</b>
     <a href="/blog/tag/">List By Tag</a>
 </h4>
 
 <div class="posts">
     {% for post in site.posts %}
-    <article class="post">
-        <div>
-            <br>
-            <div style="float: left;width: 150px">
-                <p>{{ post.date | date_to_string }}</p>
-            </div>
+        <article class="post">
             <div>
+                <br>
+                <p>{{ post.date | date_to_string }}</p>
                 <h3><a style="color:#2c3e50" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             </div>
-        </div>
-        <br>
-    </article>
+            <br>
+        </article>
     {% endfor %}
 </div>
 
 <h4>
-    <a href="/blog/category/">List By Category</a> 
-    <b>|</b> 
+    <a href="/blog/category/">List By Category</a>
+    <b>|</b>
     <a href="/blog/tag/">List By Tag</a>
 </h4>
 <br><br>

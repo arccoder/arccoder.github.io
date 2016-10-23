@@ -1,42 +1,55 @@
 ---
 layout: default
 ---
+<div class="container">
+    <div class="row">
+        <article class="post">
+          <br><br>
+          <h1>{{ page.title }}</h1>
 
-<article class="post">
-  <br><br>
-  <h1>{{ page.title }}</h1>
+          {{ page.date | date_to_string }}    {% include post-tags.html %}
 
-  {{ page.date | date_to_string }}    {% include post-tags.html %}
+          <br>
+          <div class="entry">
+            {{ content }}
+          </div>
+          <br>
 
-  <br>
-  <div class="entry">
-    {{ content }}
-  </div>
-  <br>
+          <span class="post-date">Share this blog: </span>
+          {% include add_this.html %}
 
-  <span class="post-date">Share this blog: </span>
-  {% include add_this.html %}
+          <br>
+          <div class="PageNavigation">
+              {% if page.previous.url %}
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="float: left;">
+                      <p>
+                          <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+                      </p>
+                  </div>
+              {% endif %}
+              {% if page.next.url %}
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="float: right;">
+                      <p>
+                          <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+                      </p>
+                  </div>
+              {% endif %}
+          </div>
+          <br><br>
 
-  <div class="PageNavigation">
-    {% if page.previous.url %}
-      <div style="float: left; width:400px;"><p><a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></p></div>
-    {% endif %}
-    {% if page.next.url %}
-      <div style="float: right; width:400px;"><p><a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></p></div>
-    {% endif %}
-  </div>
-  <br><br>
+          <br>
+          <h2>Related Posts</h2>
+            {% for post in site.related_posts limit:3 %}
+              <h6>
+                <a href="{{ post.url }}">
+                  <p>{{ post.title }} : {{ post.date | date_to_string }}</p>
+                </a>
+              </h6>
+            {% endfor %}
+          <br>
 
-  <br>
-  <h2>Related Posts</h2>
-    {% for post in site.related_posts limit:3 %}
-      <h6>
-        <a href="{{ post.url }}">
-          {{ post.title }} : {{ post.date | date_to_string }}
-        </a>
-      </h6>
-    {% endfor %}
-  <br>
+          {% include disqus.html %}
+        </article>
 
-  {% include disqus.html %}
-</article>
+</div>
+</div>
