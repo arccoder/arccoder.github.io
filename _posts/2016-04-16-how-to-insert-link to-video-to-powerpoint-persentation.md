@@ -2,7 +2,7 @@
 layout: post
 title: How to insert a link to local video to a powerpoint persentation.
 category: 
-tags: [powerpoint, insert-video]
+tags: [How-to, MicrosoftOffice]
 ---
 
 Its good to have a video in a presentation. It helps you convey your message efficiently. 
