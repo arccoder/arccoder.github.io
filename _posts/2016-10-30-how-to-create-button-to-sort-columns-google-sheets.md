@@ -12,10 +12,10 @@ You can do this, even if you have no programming background.
 First make a sheet and add some data in it as shown below. Starting from the very first cell in the top left corner, cell `A1`.
 You may also copy this data and paste it in the cell `A1`.
 
-|Data 1	|			|Data 2	|			|Data 3	|          |
+|Data 1	|			|Data 2 |			|Data 3	|          |
 |-------|-----------|-------|-----------|-------|----------|
 |H		|2016-09-27	|E		|2016-08-30	|H		|2016-10-01|
-|E		|2016-10-04	|D		|2016-09-01	|B		|2016-10-07|
+|E		|2016-10-04	|D		|2016-09-01	|B      |2016-10-07|
 |F		|2016-10-14	|B		|2016-09-05	|D		|2016-10-09|
 |C		|2016-10-17	|F		|2016-09-08	|G		|2016-10-09|
 |A		|2016-10-25	|A		|2016-09-20	|C		|2016-10-15|
