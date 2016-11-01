@@ -141,7 +141,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 13px 0;
+        padding: 25px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -150,7 +150,7 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-family: "Roboto",Roboto,Arial,sans-serif;
     font-weight: 700;
 }
