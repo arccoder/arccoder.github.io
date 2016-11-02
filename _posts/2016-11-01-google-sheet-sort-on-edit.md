@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to sort columns while editing on the fly in Google Sheets 
+title: How to sort columns on the fly while editing in Google Sheets 
 category: Tech
 tags: [How-to, Google-Apps-Script]
 ---
