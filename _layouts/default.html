@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    {% include head.html %}
+    <!-- <head>
 
         <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-        {% seo %}
+        {% seo %} -->
 
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" />
+        <!-- <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="/feed.xml" /> -->
 
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-        <link href="/css/bootstrap.css" rel="stylesheet">
+        <!-- <link href="/css/bootstrap.css" rel="stylesheet"> -->
         <!-- Custom CSS -->
-        <link href="/css/freelancer.css" rel="stylesheet">
+        <!-- <link href="/css/freelancer.css" rel="stylesheet"> -->
 
         <!-- Custom Fonts -->
-        <link href="/academicons-1.7.0/css/academicons.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/academicons-1.7.0/css/academicons.css" rel="stylesheet" type="text/css">
         <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
         <!--
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -31,16 +32,18 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
+    <!-- </head> -->
 
     <body class="index" id="page-top">
 
+        {% include navbar.html %}
+
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
+        <!-- <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container"> -->
 
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
+                <!-- <div class="navbar-header page-scroll">
                     <button class="navbar-toggle"
                             data-target="#bs-example-navbar-collapse-1"
                             data-toggle="collapse" type="button">
@@ -50,10 +53,10 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="{{ site.url }}">Akshay Chavan</a>
-                </div>
+                </div> -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li class="hidden">
                             <a href="#page-top"></a>
@@ -70,20 +73,20 @@
                         <li class="hidden">
                             <a href="#links">Links</a>
                         </li>
-                        -->
+
                         <li class="page-scroll">
                             <a href="{{ site.url }}/blog/" target="_blank">#officiallytech</a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
                 <!-- /.navbar-collapse -->
-            </div>
+            <!-- </div> -->
             <!-- /.container-fluid -->
-        </nav>
+        <!-- </nav> -->
 
         <br>
         <br>
-        
+
         <div id="main" role="main" class="container">
             {{ content }}
         </div>
