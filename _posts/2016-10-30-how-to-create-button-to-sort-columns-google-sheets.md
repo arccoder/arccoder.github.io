@@ -25,7 +25,7 @@ You may also copy this data and paste it in the cell `A1`.
 
 **Next open the google apps script editor.**
 
-![script editor][I1]
+![script editor][I1]{: .img-responsive}
 
 Click on Tools -> Script editor. You should see a code.gs file open for editing.
 You may also name the file as per your preference in the top left corner.
@@ -91,11 +91,11 @@ Save the script.
 
 Now that we have the code in place lets make the button.
 
-![insert drawing][I2]
+![insert drawing][I2]{: .img-responsive}
 
 Click on Insert -> Drawing. A drawing window will open. Click on Shape -> Shapes -> Bevel.
 
-![steps to draw button][I3]
+![steps to draw button][I3]{: .img-responsive}
 
 I have selected a bevel shape here but you can select an other shape from the list.
 Drag a bevel shape on the drawing canvas. Don't worry about the size you can change the size once it is inserted in the sheet.
@@ -103,7 +103,7 @@ Add a text to the button `SORT` as we are going to use this button to sort the d
 
 All you are left to do is assign a function to the button.
 
-![assign script][I4]
+![assign script][I4]{: .img-responsive}
 
 Right click on the button and left click on the drop-down button that you see on the right.
 Select `Assign script` and a dialog box pops up.
@@ -115,7 +115,7 @@ on the press of this button and click OK.
 
 You are done. Click the button, if your data is not sorted in the ascending order you see it sort itself.
 
-![final result][I6]
+![final result][I6]{: .img-responsive}
 
 Follow similar steps to setup the other to button.
 Now every time you change the data (here dates) just click the button and see the data sort itself.
