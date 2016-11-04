@@ -12,6 +12,7 @@ You can do this, even if you have no programming background.
 First make a sheet and add some data in it as shown below. Starting from the very first cell in the top left corner, cell `A1`.
 You may also copy this data and paste it in the cell `A1`.
 
+{:.simpletable}
 |Data 1	|			|Data 2 |			|Data 3	|          |
 |-------|-----------|-------|-----------|-------|----------|
 |H		|2016-09-27	|E		|2016-08-30	|H		|2016-10-01|
@@ -23,6 +24,7 @@ You may also copy this data and paste it in the cell `A1`.
 |D		|2016-11-03	|G		|2016-09-29	|A		|2016-10-23|
 |B		|2016-11-24	|H		|2016-10-04	|E		|2016-11-04|
 
+<br>
 **Next open the google apps script editor.**
 
 ![script editor][I1]{: .img-responsive}
