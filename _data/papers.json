@@ -1,0 +1,14 @@
+[
+   {
+       "author":"A. Chavan and S. K. Yogamani",
+       "booktitle":"ITS Telecommunications (ITST), 2012 12th International Conference on",
+       "title":"Real-time DSP implementation of Pedestrian Detection algorithm using HOG features",
+       "year":"2012",
+       "pages":"352-355",
+       "abstract":"Pedestrian Detection is the most critical safety application in automotive driver assistance systems. Histogram of Oriented Gradients (HOG) features is known to produce the state of the art results for this application. This feature is very compute-intensive and it is difficult to achieve real-time performance by direct porting of community software like OpenCV. In this paper, we discuss an efficient DSP implementation of this algorithm and also demonstrate how architecture aware design choices can lead to huge performance improvements. The algorithm was implemented and profiled on a Texas Instruments' C674x DSP, achieving a performance of 20 fps for a VGA resolution video sequence. Compared to OpenCV's HOG function, the proposed implementation is 130X faster without a significant loss of accuracy.",
+       "keywords":["digital signal processing chips","driver information systems","embedded systems","feature extraction","image resolution","image sequences","open systems","pedestrians","real-time systems","video signal processing","OpenCV HOG function","Texas Instruments' C674x DSP","VGA resolution video sequence","architecture aware design","automotive driver assistance systems","community software","critical safety application","histogram of oriented gradients features","pedestrian detection algorithm","real-time DSP implementation","real-time performance","Accuracy","Digital signal processing,Histograms","Image edge detection","Optimization","Real-time systems","Support vector machines"],
+       "doi":"http://dx.doi.org/10.1109/ITST.2012.6425196",
+       "month":"Nov",
+       "pdf":"/resources/papers/06425196.pdf"
+   }
+]

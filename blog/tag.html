@@ -34,7 +34,10 @@ Here we generate all the tags.
 <h1 class="page-title">
   <a href="/blog">#officiallytech</a> | {{ page.title }}
 </h1>
-<br/>
+
+<br><br>
+{% include categorytaglink.html %}
+<br><br>
 
 <div class="posts">
     <p>
@@ -61,3 +64,7 @@ Here we generate all the tags.
     {% endfor %}
 
 </div>
+
+<br><br>
+{% include categorytaglink.html %}
+<br><br>
