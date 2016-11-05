@@ -2,7 +2,7 @@
 layout: post
 title: Face Detection vs Face Recognition
 category: Business
-tags: [face-detection, face-recognition]
+tags: [Face-Detection, Face-Recognition]
 ---
 
 People use the words Face Detection and Recognition interchangeably to describe an application that uses facial images to enable or perform a mechanism. Having worked in the computer vision field I keep trying to educate people about the difference between detection and recognition whenever I hear someone using it incorrectly and this can be considered as another attempt.
