@@ -2,7 +2,7 @@
 layout: post
 title: Global Climate Change
 category: Tech
-tags: [visualization, js, climate]
+tags: [Javascript, Kagle]
 ---
 
 <html>
