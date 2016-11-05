@@ -3,7 +3,7 @@ layout: post
 title: World is, probably, not ready for Minority Report
 description: Consumers are not ready for identification using bio-metrics as we saw in movie minority report.
 category: Business
-tags: [face-detection, face-recognition, privacy]
+tags: [face-detection, face-recognition, thoughts]
 ---
 Many people I know in the tech industry were fascinated by the scene from Minority Report where the camera over the billboards recognizes the person by an iris scan. If not that level of sophistication there are several tech companies and researchers who are actively working of such an application using faces or some non-biometric scan involving a registered or anonymous tracking devices.
 
