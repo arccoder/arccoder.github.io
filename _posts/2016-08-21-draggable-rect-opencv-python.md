@@ -2,7 +2,7 @@
 layout: post
 title: Draggable rectangle in opencv (Python)
 category: Tech
-tags: [opencv, python]
+tags: [OpenCV, Python]
 ---
 
 If you use [opencv](http://opencv.org/) then you probabaly are interested in computer vision and image processing. Many times you need a area or a region on an image as a starting value or region of interest. For instance, while collecting data for object detection you might want to known the location of the object on the image which can be used as ground truth for calculating the accuracy of the classification algorithm. Another instance is if you want to provide a seed region for a tracking algorithm. In such scenarios, it is very useful if this region selection can be accompolished by a simple user interface preferably by dragging a rectangle on the image.
