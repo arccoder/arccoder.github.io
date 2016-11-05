@@ -2,7 +2,7 @@
 layout: post
 title: Pandas - A primer. How I used it for my first project.
 category: Tech
-tags: [COde, Pandas, Python]
+tags: [Code, Pandas, Python]
 ---
 
 Here I am using [IPython](https://ipython.org/) to run [Pandas](http://pandas.pydata.org/).
