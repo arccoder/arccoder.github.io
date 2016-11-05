@@ -2,7 +2,7 @@
 layout: post
 title: Mean shift for tracking
 category: Tech
-tags: [object-tracking, mean-shift]
+tags: [Code, Python, Algorithm]
 ---
 
 [Camshift](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.7673) algorithm for tracking first showed how mean shift can be applied for tracking faces. 
