@@ -3,7 +3,7 @@ layout: post
 title: How to use meanshift function from FastCV
 description: Using fcvMeanShiftu8 from FastCV
 category: Tech
-tags: [How-to, Code, Algorithm, fastcv]
+tags: [How-to, Code, Algorithm, FastCV]
 ---
 
 How to use meanshift function from FastCV
