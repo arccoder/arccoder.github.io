@@ -3,7 +3,7 @@ layout: post
 title: Post code on blogger from source file
 description: Automated way to convert a source code file to a blogger blog post
 category: Tech
-tags: [blogger, C#]
+tags: [Code, C#]
 ---
 
 I have a blog Code Sangraha where I post usually C++ implementations. Everytime I have to post a implementation I have to do it manually to get the syntax highlighting. It was a tedious process to  copy the code from visual studio to a word file and then to the blogger editor. This caused a lot of issues in the indentation of the code on the blogger.
