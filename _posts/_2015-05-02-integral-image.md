@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Integral Image
+title: Compute Integral Image in C++
 category: Tech
-tags: [C++, integral image]
+tags: [C++, Algorithm]
 ---
 **C++ Code**
 
