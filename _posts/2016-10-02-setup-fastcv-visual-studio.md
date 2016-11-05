@@ -3,7 +3,7 @@ layout: post
 title: Setup FastCV on Visual Studio 2010
 description: Steps to setup FastCV 1.7.1 on Visual Studio 2010 Express
 category: Tech
-tags: [fastcv, visual studio, opencv]
+tags: [FastCV, Visual-Studio, OpenCV]
 ---
 
 Qualcomm's [FastCV SDK](https://developer.qualcomm.com/software/fastcv-sdk) is a mobile-optimized computer vision library which offers a wide range functionality. It is specially optimized for [Qualcomm's snapdragon processor](https://developer.qualcomm.com/hardware/which-processor). Today we will go through the steps to use FastCV 1.7.1 on windows using Visual Studio 2010 Express.
