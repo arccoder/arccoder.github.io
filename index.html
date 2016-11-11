@@ -44,11 +44,11 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
             <hr>
             <br>
             <!--<hr class="star-light">-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="implementation">
                 <h3>Implementation</h3>
                 <br>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donutchart2">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="application">
                 <h3>Application</h3>
                 <br>
             </div>
@@ -143,98 +143,64 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
 
 <!-- Doughnut Charts for skills -->
 <script>
-  var width = 360;
-  var height = 360;
-  var radius = 180;
-  var color = d3.scale.category20b();
 
-  var svg = d3.select("#donutchart")
-        .append("svg")
-        .attr("height", height)
-        .attr("width", width);
-  var donutgroup = svg.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
+    function createSkillsDoughnut(chartId, width, height, radius,
+                                  pointData, pointLabels )
+    {
+        var color = d3.scale.category20b();
 
-  var p = Math.PI * 2;
-  var innercircles = 5;
-  //var innerradius = [270, 230, 190, 150, 110];
-  //var outerradius = [300, 260, 220, 180, 140];
-  var xoffset = [-35, -55, -55, -38, -72];
-  var startangle = [0, 0, 0, 0, 0];
-  var endangle = [95, 95, 80, 70, 60];
-  var fillcolor = ['#FA6900', '#FABF3B', '#E0E4CC', '#A7DBDB', '#69D2E7'];
-  var labels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
-  var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
+        var svg = d3.select(chartId)
+                .append("svg")
+                .attr("height", height)
+                .attr("width", width);
+        var donutgroup = svg.append("g")
+                .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
-  var svgquadrant = donutgroup.append("g")
-                .attr("id", "quadrant");
+        var p = Math.PI * 2;
+        var innercircles = 5;
+        //var innerradius = [270, 230, 190, 150, 110];
+        //var outerradius = [300, 260, 220, 180, 140];
+        var xoffset = [-35, -55, -55, -38, -72];
+        var startangle = [0, 0, 0, 0, 0];
+        //var endangle = [95, 95, 80, 70, 60];
+        var fillcolor = ['#FA6900', '#FABF3B', '#E0E4CC', '#A7DBDB', '#69D2E7'];
+        //var labels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
+        var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
 
-  for (i = 0; i < innercircles; i++)
-  {
-    var arcname = "arc" + i;
-    arcname = d3.svg.arc()
-          .innerRadius(radius-20 - i*30)
-          .outerRadius(radius - i*30)
-          .startAngle(myScale(startangle[i]))
-          .endAngle(myScale(endangle[i]));
+        var svgquadrant = donutgroup.append("g").attr("id", "quadrant");
 
-    svgquadrant.append("path")
-          .attr('id', 'p' + i)
-          .attr("d", arcname)
-          .attr('fill', fillcolor[i]);
+        for (i = 0; i < innercircles; i++)
+        {
+            var arcname = "arc" + i;
+            arcname = d3.svg.arc()
+                .innerRadius(radius-20 - i*30)
+                .outerRadius(radius - i*30)
+                .startAngle(myScale(startangle[i]))
+                .endAngle(myScale(pointData[i]));
 
-    svgquadrant.append("text")
-          .attr("d", arcname)
-          .attr("x", xoffset[i])
-          .attr("y", -(radius-18 - i*30)-3)
-          .text(labels[i]);
-  }
+            svgquadrant.append("path")
+                .attr('id', 'p' + i)
+                .attr("d", arcname)
+                .attr('fill', fillcolor[i]);
 
-  // svgquadrant.append("text")
-  //         .attr("d", arcname)
-  //         .attr("x", -25)
-  //         .attr("y", 5)
-  //         .text("TOOLS");
+            svgquadrant.append("text")
+                .attr("d", arcname)
+                .attr("x", 5)//xoffset[i])
+                .attr("y", -(radius-18 - i*30)-3)
+                .text(pointLabels[i]);
+        }
+    }
 
-  var svg2 = d3.select("#donutchart2")
-        .append("svg")
-        .attr("height", height)
-        .attr("width", width);
-  var donutgroup2 = svg2.append("g").attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
+    var implementationData = [95, 95, 80, 70, 60];
+    var implementationLabels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
+    createSkillsDoughnut("#implementation", 360, 360, 180,
+                         implementationData, implementationLabels);
 
-  xoffset = [-122, -120, -125, -98, -95];
-  startangle = [0, 0, 0, 0, 0];
-  endangle = [85, 75, 75, 70, 60]
-  labels = ['Image Processing', 'Computer Vision', 'Machine Learning', 'Data Analysis', 'Optimization'];
+     var applicationData = [85, 75, 75, 70, 60];
+     var applicationLabels = ['Image Processing', 'Computer Vision', 'Machine Learning', 'Data Analysis', 'Optimization'];
+    createSkillsDoughnut("#application", 360, 360, 180,
+                         applicationData, applicationLabels);
 
-  var svgquadrant2 = donutgroup2.append("g")
-                .attr("id", "quadrant");
-
-  for (i = 0; i < innercircles; i++)
-  {
-    var arcname = "arc" + i;
-    arcname = d3.svg.arc()
-          .innerRadius(radius-20 - i*30)
-          .outerRadius(radius - i*30)
-          .startAngle(myScale(startangle[i]))
-          .endAngle(myScale(endangle[i]));
-
-    svgquadrant2.append("path")
-          .attr('id', 'p' + i)
-          .attr("d", arcname)
-          .attr('fill', fillcolor[i]);
-
-    svgquadrant2.append("text")
-          .attr("d", arcname)
-          .attr("x", xoffset[i])
-          .attr("y", -(radius-18 - i*30)-3)
-          .text(labels[i]);
-  }
-
-  // svgquadrant2.append("text")
-  //         .attr("d", arcname)
-  //         .attr("x", -38)
-  //         .attr("y", 5)
-  //         .text("RESEARCH");
 </script>
 <script charset="utf-8"
         src="https://www.goodreads.com/review/grid_widget/24313083.Akshay's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1470879130"
