@@ -123,7 +123,10 @@ description: I am Akshay Chavan, arccoder, a software professional working in Co
             {% for paper in site.data.papers %}
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 portfolio-item">
                     <h4><a href="{{ paper.doi }}" target="_blank">{{ paper.title }}</a></h4>
-                    <h6><a href="{{ paper.pdf }}" target="_blank">PDF</a></h6>
+                    <h6>
+                        <a href="{{ paper.pdf }}" target="_blank">PDF</a>&nbsp;&nbsp;
+                        <a href="https://youtu.be/F1GZDTr0q74" target="_blank">OUTPUT</a>
+                    </h6>
                     {{ paper.abstract }}
                   </div>
             {% endfor %}
