@@ -1,0 +1,26 @@
+---
+layout: default
+title: Akshay Chavan
+---
+
+<h1><a href="/">Akshay Chavan</a></h1>
+<h3><a href="/blog/">Officiallytech</a></h3>
+Blogs that directly or indirectly related to tech or coding.
+
+<h3>Useful Links</h3>
+{% for link in site.data.links %}
+    <a href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+    {{ link.tagline }}
+    <br>
+{% endfor %}
+
+<h3>Papers</h3>
+{% for paper in site.data.papers %}
+    <a href="{{ paper.doi }}" target="_blank">{{ paper.title }}</a>
+    <a href="{{ paper.pdf }}" target="_blank" style="float:right">
+        <i class="fa fa-file-pdf-o" ></i>
+    </a>
+    <br><br>
+    {{ paper.abstract | strip_html | truncatewords:50 }}
+    <a href="{{ post.url }}">Read more</a><br><br>
+{% endfor %}

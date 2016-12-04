@@ -1,0 +1,10 @@
+[
+    {
+        "type":"Implementation",
+        "names":["C++","Matlab","Python","Java","Pandas/R"],
+    },
+    {
+        "type":"Application",
+        "names":["Image Processing","Computer Vision","Machine Learning","Data Analysis","Optimization"],
+    }
+]

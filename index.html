@@ -1,219 +1,58 @@
 ---
 layout: default
-title: About me and  skills.
-description: I am Akshay Chavan, arccoder, a software professional working in Computer Vision, Machine Learning, Image Processing, Data Analysis.
+title: Akshay Chavan
 ---
 
-<!-- About Section -->
-<section id="about">
-    <div class="container">
-        <div align="center" class="row">
-            <hr>
-            <h2>About Me</h2>
-            <hr>
-            <br>
-            <!--<hr class="star-light">-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:right; padding-left:10%;">
-                <p>Software Professional<br>
-                Perpetual Learner<br>
-                Works @Qualcomm<br>
-                Studied @TexasTech<br>
-                SousChef @Home<br></p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:left; padding-right:10%;">
-                <p>Consider me as a perpetual learner interested in solving
-                problems effectively and efficiently. Innovation and
-                challenge excite me. I’m a software professional
-                experienced in <b>computer vision, machine learning, and
-                image processing</b> projects. I develop mainly in
-                <b>C++</b> as well as possess hands on experience in many
-                other languages. Proficient in designing vision products
-                and libraries, I am always looking for new projects to work
-                on.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<img class="profilepic" src="/images/profile400x400.png" atl="Akshay Chavan"></img>
 
-<!-- Skills Section -->
-<section id="skills">
-    <div class="container">
-        <div align="center" class="row">
-            <hr>
-            <h2>Skills</h2>
-            <hr>
-            <br>
-            <!--<hr class="star-light">-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="implementation">
-                <h3>Implementation</h3>
-                <br>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="application">
-                <h3>Application</h3>
-                <br>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Projects Grid Section -->
-<section id="portfolio">
-    <div class="container">
-        <div align="center" class="row">
-            <hr>
-            <h2>Projects</h2>
-            <hr>
-            <br>
-            <!--<hr class="star-light">-->
-            {% for project in site.data.projects %}
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href={{ project.link }} target="_blank">
-                        <h3>{{ project.title }}</h3>
-                        <p>{{ project.tagline }}</p>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<!-- Links Grid Section -->
-<section id="links">
-    <div class="container">
-        <div align="center" class="row">
-            <hr>
-            <h2>Links</h2>
-            <hr>
-            <p>something useful</p>
-            <br>
-            <!--<hr class="star-light">-->
-            {% for link in site.data.links %}
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-item">
-                    <a class="img-responsive" href={{ link.link }} target="_blank">
-                        <h4>{{ link.title }}</h4>
-                        {{ link.tagline }}
-                    </a>
-                  </div>
-            {% endfor %}
-        </div>
-        <br>
-        <!-- For goodreads widget -->
-        <style media="screen" type="text/css">
-            .gr_grid_container {
-                /* customize grid container div here. eg: width: 500px; */
-            }
-
-            .gr_grid_book_container {
-                /* customize book cover container div here */
-                float: left;
-                width: 98px;
-                height: 160px;
-                padding: 0px 0px;
-                overflow: hidden;
-            }
-        </style>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align:center;">
-            <h3>Bookshelf</h3>
-            <div id="gr_grid_widget_1470879130">
-            </div>
-        </div>
-        <br><br>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align:center">
-            <h3>Conference Proceedings</h3>
-            {% for paper in site.data.papers %}
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 portfolio-item">
-                    <h4><a href="{{ paper.doi }}" target="_blank">{{ paper.title }}</a></h4>
-                    <h6><a href="{{ paper.pdf }}" target="_blank">PDF</a></h6>
-                    {{ paper.abstract }}
-                  </div>
-            {% endfor %}
-        </div
-    </div>
-</section>
-
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visible-sm">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
+<h2>
+    {{ site.data.about[0] }}
+    {% include social.html %}
+</h2>
+<div style="font-size:22px;line-height:44px">
+    {{ site.data.about[1] }}
 </div>
 
-<!-- D3 -->
-<script data-require="d3@3.5.3" data-semver="3.5.3" src="/js/d3.v3.min.js"></script>
-
-<!-- Doughnut Charts for skills -->
-<script>
-
-    function createSkillsDoughnut(chartId, radius,
-                                  pointData, pointLabels )
-    {
-        if( radius < 100 )
-            radius = 100;
-        if( radius > 200 )
-            radius = 200;
-
-        var width = radius * 2;
-        var height = radius * 2;
-
-        var color = d3.scale.category20b();
-
-        var svg = d3.select(chartId)
-                .append("svg")
-                .attr("height", height)
-                .attr("width", width);
-        var donutgroup = svg.append("g")
-                .attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
-
-        var p = Math.PI * 2;
-        var innercircles = 5;
-        //var innerradius = [270, 230, 190, 150, 110];
-        //var outerradius = [300, 260, 220, 180, 140];
-        // var xoffset = [-35, -55, -55, -38, -72];
-        var startangle = [0, 0, 0, 0, 0];
-        //var endangle = [95, 95, 80, 70, 60];
-        var fillcolor = ['#FA6900', '#FABF3B', '#E0E4CC', '#A7DBDB', '#69D2E7'];
-        //var labels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
-        var myScale = d3.scale.linear().domain([0, 100]).range([0, 2 * Math.PI]);
-
-        var svgquadrant = donutgroup.append("g").attr("id", "quadrant");
-
-        var segRadius = (radius*0.75)/innercircles;
-        var segGap = segRadius * 0.8;
-
-        for (i = 0; i < innercircles; i++)
-        {
-            var arcname = "arc" + i;
-            arcname = d3.svg.arc()
-                .innerRadius(radius-segGap - i*segRadius)
-                .outerRadius(radius - i*segRadius)
-                .startAngle(myScale(startangle[i]))
-                .endAngle(myScale(pointData[i]));
-
-            svgquadrant.append("path")
-                .attr('id', 'p' + i)
-                .attr("d", arcname)
-                .attr('fill', fillcolor[i]);
-
-            svgquadrant.append("text")
-                .attr("d", arcname)
-                .attr("x", 5)//xoffset[i])
-                .attr("y", -(radius-segGap*0.9 - i*segRadius))
-                .text(pointLabels[i]);
-        }
+<style>
+    table,
+    th,
+    td {
+        border: none;
     }
+</style>
 
-    var implementationData = [95, 95, 80, 70, 60];
-    var implementationLabels = ['C++', 'Matlab', 'Python', 'Java', 'Pandas/R'];
-    createSkillsDoughnut("#implementation", window.innerWidth/2,
-                         implementationData, implementationLabels);
+<h3>Skills</h3>
+<table style="width:100%;">
+    <tbody>
+        <tr>
+            <th style="text-align:left">
+                <h4>{{ site.data.skills[0].type }}</h4></th>
+            <th style="text-align:right">
+                <h4>{{ site.data.skills[1].type }}</h4></th>
+        </tr>
+        {% for i in (0..4) %}
+        <tr>
+            <td style="text-align:left">{{ site.data.skills[0].names[i] }}</td>
+            <td style="text-align:right">{{ site.data.skills[1].names[i] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
 
-    var applicationData = [85, 75, 75, 70, 60];
-    var applicationLabels = ['Image Processing', 'Computer Vision', 'Machine Learning', 'Data Analysis', 'Optimization'];
-    createSkillsDoughnut("#application", window.innerWidth/2,
-                         applicationData, applicationLabels);
+<hr>
+<h3>Latest <a href='/projects'>Projects</a></h3>
+{% for project in site.data.projects limit:4 %}
+    <h4><a href={{ project.link }}>{{ project.title }}</a></h4>
+    {{ project.tagline }}
+{% endfor %}
 
-</script>
-<script charset="utf-8"
-        src="https://www.goodreads.com/review/grid_widget/24313083.Akshay's%20bookshelf:%20read?cover_size=medium&hide_link=true&hide_title=true&num_books=20&order=a&shelf=read&sort=date_added&widget_id=1470879130"
-        type="text/javascript">
-</script>
+<hr>
+<h3><a href="/blog/">OfficiallyTech</a></h3>
+{% for post in site.posts limit:1 %}
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    {{ post.content }}
+{% endfor %}
+<hr>
+
+<center><h3><a href="/etc/">Etc ...</a></h3></center>
+<hr>

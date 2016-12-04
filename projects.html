@@ -1,0 +1,14 @@
+---
+layout: default
+title: Akshay Chavan
+---
+<h1><a href='/'>Akshay Chavan</a></h1>
+
+<h3>Projects</h3>
+{% for project in site.data.projects %}
+    <div>
+        <a href={{ project.link }}><h4>{{ project.title }}</h4></a>
+        {{ project.tagline }}
+    </div>
+{% endfor %}
+<hr>

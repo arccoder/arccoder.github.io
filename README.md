@@ -1,10 +1,6 @@
-### Akshay Chavan
-Personal Website & Blog
+## Theme
 
-**Inspritation**
+### [Demo and Documentation](https://adueck.github.io/good-clean-read)
+Built on top of <a href="http://chibicode.github.io/solo">Solo</a>, by [Shu Uesugi](https://github.com/chibicode)
 
-* [freelancer](http://startbootstrap.com/template-overviews/freelancer/)
-* [jekyll-now](https://github.com/barryclark/jekyll-now)
-* [lanyon-codinfox](https://github.com/codinfox/lanyon-codinfox.github.io)
-* [next/prev](http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html)
-* [addthis](http://www.addthis.com/)
+### [Inspiration](http://jamigibbs.com/)

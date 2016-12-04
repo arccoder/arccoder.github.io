@@ -21,11 +21,11 @@ When you browse the file rather than selecting 'Insert' the file use the dropdow
 
 **Insert video for PC**
 
-![Insert video for PC](https://raw.githubusercontent.com/arccoder/arccoder.github.io/master/blog/images/_posts/04_2016/pptx_video_1.png)
+![Insert video for PC](/resources/posts/04_2016/pptx_video_1.png)
 
 **Insert link to video**
 
-![Insert link to video](https://raw.githubusercontent.com/arccoder/arccoder.github.io/master/blog/images/_posts/04_2016/pptx_video_2.png)
+![Insert link to video](/resources/posts/04_2016/pptx_video_2.png)
 
 You just have to make sure that the location of the video and the presentation does not change. Actually the link to the video is **absolute as well as relative**. If your video in a particular location on your machine when you inserted the link to the video and then you happen to move the video to the same folder as the presentation, the link will still work. But if powerpoint cannot find the video locally (same folder as the presentation) or in its original location (absolute path) the video won't work. The link would not work if you rename the video after the link was inserted.
 

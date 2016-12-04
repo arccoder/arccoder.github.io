@@ -1,22 +1,32 @@
 [
     {
         "link":"https://www.udacity.com/course/deep-learning--ud730",
+        "favicon":"https://www.udacity.com/favicon.ico",
         "title":"Udacity - Deep Learning",
-        "tagline":""
+        "tagline":"By Google"
     },
     {
         "link":"https://class.coursera.org/ml-003/lecture",
+        "favicon":"https://coursera.org/favicon.ico",
         "title":"Coursera - Machine Learning",
         "tagline":"By Andrew Ng"
     },
     {
         "link":"http://choosealicense.com/",
+        "favicon":"http://choosealicense.com/favicon.ico",
         "title":"Choose a license",
         "tagline":"Helps to choose an open source license"
     },
     {
         "link":"http://neuralnetworksanddeeplearning.com/",
+        "favicon":"http://neuralnetworksanddeeplearning.com/favicon.ico",
         "title":"Neural Networks and Deep Learning",
         "tagline":"Free online book"
+    },
+    {
+        "link":"https://labs.sverrirs.com/jekyll/",
+        "favicon":"https://labs.sverrirs.com/favicon.ico",
+        "title":"Jekyll 3 on Windows",
+        "tagline":"How to install Jekyll on windows"
     }
 ]

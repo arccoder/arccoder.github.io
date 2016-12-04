@@ -132,9 +132,9 @@ Now every time you change the data (here dates) just click the button and see th
 [2]: https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app#getActiveSheet()
 [3]: https://developers.google.com/apps-script/reference/spreadsheet/sheet#getRange(String)
 [4]: https://developers.google.com/apps-script/reference/spreadsheet/range#sort(Object)
-[I1]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton1.png
-[I2]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton2.png
-[I3]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton3.gif
-[I4]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton4.png
-[I5]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton5.png
-[I6]: https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/sortbutton6.png
+[I1]: /resources/posts/10_2016/sortbutton1.png
+[I2]: /resources/posts/10_2016/sortbutton2.png
+[I3]: /resources/posts/10_2016/sortbutton3.gif
+[I4]: /resources/posts/10_2016/sortbutton4.png
+[I5]: /resources/posts/10_2016/sortbutton5.png
+[I6]: /resources/posts/10_2016/sortbutton6.png

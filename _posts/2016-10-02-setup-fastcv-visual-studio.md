@@ -14,9 +14,9 @@ As I using VC++ 2010 Express, I shall be using the _libfastcv.lib_ in the MD fol
 
 Now create an empty C++ project in visual studio and include the paths for header and libs in the project properties as shown in the images below.
 
-![Include Directories](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup1.JPG)
-![Library Directories](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup2.JPG)
-![Additinal Dependencies](https://cdn.rawgit.com/arccoder/arccoder.github.io/master/blog/images/_posts/10_2016/fastcvsetup3.JPG)
+![Include Directories](/resources/posts/10_2016/fastcvsetup1.JPG)
+![Library Directories](/resources/posts/10_2016/fastcvsetup2.JPG)
+![Additinal Dependencies](/resources/posts/10_2016/fastcvsetup3.JPG)
 
 We are almost there. Create a source file with the following code in it.
 
@@ -28,10 +28,10 @@ int main()
     // FastCV - Initialization process
     fcvOperationMode mode = FASTCV_OP_CPU_PERFORMANCE;
     FASTCV_API int fcvSetOperationMode( mode );
-    
+
     // FastCV - De-initialization process
     FASTCV_API void fcvCleanUp();
-    
+
     return 0;
 }
 ```
@@ -42,10 +42,8 @@ The setup process described here should be vary similar if you use a different v
 
 ------
 
-Note: 
+Note:
 
 In the above images you will also see OpenCV included and libraries added. I am using OpenCV 2.4.9 and its the last version of OpenCV that coes with prebuild VS2010 libraries.
 
 FastCV does not provide a way to read images. So I use opencv to read and display images and FastCV to process them.
-
-

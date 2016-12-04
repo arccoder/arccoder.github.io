@@ -16,7 +16,7 @@ tags: [Code, Javascript, Kaggle]
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 
-<script src="/blog/js/dataAvgTemp.js"></script>
+<script src="/resources/posts/03_2016/dataAvgTemp.js"></script>
 
 <style>
  #yearTitle {
@@ -700,7 +700,7 @@ $(function () {
    data: dataLocal[0]
   }]
  };
- 
+
  var chart1 = new Highcharts.Chart(options1);
 
  $("#selectCountry").on('change', function(){
@@ -715,7 +715,7 @@ $(function () {
   }];
   var chart1 = new Highcharts.Chart(options1);    
  });
- 
+
  // CHART 2 //
  var options2 = {
   chart: {
@@ -759,7 +759,7 @@ $(function () {
    data: dataLocal[1]
   }]
  };
- 
+
  var chart2 = new Highcharts.Chart(options2);
 
  $("#selectCountry1").on('change', function(){
@@ -779,7 +779,7 @@ $(function () {
   }];
   var chart2 = new Highcharts.Chart(options2);    
  });
-  
+
  $("#selectCountry2").on('change', function(){
   var dropdownVal1 = $("#selectCountry1").val();
   var dropdownVal2 = $("#selectCountry2").val();
@@ -797,7 +797,7 @@ $(function () {
   }];
   var chart2 = new Highcharts.Chart(options2);    
  });
- 
+
  // World Map //
  dataPos = 0;
 
@@ -835,7 +835,7 @@ $(function () {
    }
   }]
  });
- 
+
  setInterval(function () {
   chart = $('#container3').highcharts();
   chart.series[0].setData(dataMap[dataPos]);
@@ -854,7 +854,7 @@ $(function () {
 
 ```python
 # Calculate the average temperature per year for every country
-# Collect that into data frame where the 
+# Collect that into data frame where the
 # years take the index values & the
 # countries take the column names
 
@@ -883,7 +883,7 @@ def splitDT(datadt):
             elel2.insert(0, elel2.pop())
             l.append(elel2);
     return l;
-            
+
 ymd = pd.DataFrame( splitDT(data.dt), columns = ['year','month','date'] )
 
 ### Concat with the original data
@@ -897,7 +897,7 @@ len(uCountry)
 uYear = data.year.unique()
 len(uYear)
 
-## Create a dataframe with 
+## Create a dataframe with
 # - a column 'year'
 # - one column for each country
 #   with average temp for each year across it
@@ -909,7 +909,7 @@ matdf = matdf.set_index('year')
 matdf.describe()
 
 ### Loop through every country and find the average temperature from the data given for that country
-# This loop is very slow. 
+# This loop is very slow.
 # I am pretty new to **pandas**.
 # *Would be happy to get suggestions on how calculate such a matrix efficiently.*
 
