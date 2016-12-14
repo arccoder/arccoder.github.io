@@ -199,6 +199,7 @@ code {
 
 pre > code {
   padding: 0;
+  word-wrap: break-word;
 }
 
 .container {
