@@ -276,6 +276,29 @@ pre > code {
 	width: 100%;
 }
 
+.skillswrapper {
+  overflow:hidden;
+}
+
+.skillswrapper div {
+   padding: 10px;
+}
+#skillsleft {
+  float:left;
+  width:275px; // width of both divs should be equal
+}
+#skillsright {
+  overflow:hidden;
+  width:275px; // width of both divs should be equal
+}
+
+@media screen and (max-width: 450px) {
+   #skillsleft {
+    float: none;
+    width:auto;
+  }
+}
+
 #skillstable {
     border-collapse: collapse;
 }
