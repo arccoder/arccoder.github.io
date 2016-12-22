@@ -76,7 +76,7 @@ h2 {
   margin-bottom: 5rem;
   color: #555;
   text-align: right;
-  margin-right: -4rem;
+  /*margin-right: -4rem;*/
 }
 
 @media (min-width: 30rem) {
@@ -84,7 +84,7 @@ h2 {
     margin-top: 2.5rem;
     font-size: 1.75rem;
     margin-bottom: 8rem;
-    margin-right: -4rem;
+    /*margin-right: -4rem;*/
   }
 }
 
