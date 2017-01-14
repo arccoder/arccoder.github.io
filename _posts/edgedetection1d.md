@@ -22,6 +22,7 @@ tags: [Matlab]
 
 ![convdatad2filter][I8]
 
+<script src="https://gist.github.com/arccoder/c5c0818acebc588d84392c3a20743076.js"></script>
 
 [I1]: /resources/posts/01_2017/filter.png
 [I2]: /resources/posts/01_2017/dfilter.png
