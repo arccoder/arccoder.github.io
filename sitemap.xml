@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://akshaychavan.com/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/projects/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/opencvdragrect/</loc>
+  <lastmod>2016-10-16T23:00:10+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/selectincanvas.js/</loc>
+  <lastmod>2016-10-15T21:41:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/edge-detection-in-1d/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/etc/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/all/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/category/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/tag/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/google-sheet-sort-on-edit/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/how-to-create-button-to-sort-columns-google-sheets/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/fastcv-meanshift-example/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/convert-rgb-color-image-to-grayscale-using-fastcv/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/setup-fastcv-visual-studio/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/draggable-rect-opencv-python/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/datepicker-in-meteor/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/mean-shift-for-tracking/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/how-to-insert-link-to-video-to-powerpoint-persentation/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/resources/papers/06425196.pdf</loc>
+  <lastmod>2017-01-15T23:19:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/pandas-a-primer-how-i-used-it-for-my-first-project/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/global-climate-change/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/handwriting-a-relic-of-the-past/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/firing-up-raspberry-pi/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/face-detection-vs-face-recognition/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/world-is-probably-not-ready-for-minorit-report/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://akshaychavan.com/blog/post-code-on-blogger-from-source-file/</loc>
+  <lastmod>2017-01-15T23:19:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
