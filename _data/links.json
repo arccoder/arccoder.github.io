@@ -28,5 +28,11 @@
         "favicon":"https://labs.sverrirs.com/favicon.ico",
         "title":"Jekyll 3 on Windows",
         "tagline":"How to install Jekyll on windows"
+    },
+    {
+        "link":"https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "favicon":"",
+        "title":"Essence of linear algebra",
+        "tagline":"Geometric explaination for linear algebra"
     }
 ]
