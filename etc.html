@@ -24,3 +24,10 @@ Blogs that directly or indirectly related to tech or coding.
     {{ paper.abstract | strip_html | truncatewords:50 }}
     <a href="{{ post.url }}">Read more</a><br><br>
 {% endfor %}
+
+<h3>Just-Interesting</h3>
+{% for link in site.data.just %}
+    <a href="{{ link.link }}" target="_blank">{{ link.title }}</a>
+    {{ link.tagline }}
+    <br>
+{% endfor %}
