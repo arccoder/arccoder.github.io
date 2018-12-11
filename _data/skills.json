@@ -1,10 +1,10 @@
 [
     {
         "type":"Implementation",
-        "names":["C++","Matlab","Python","Java","Pandas/R"],
+        "names":["C++","Python","Java","Matlab"],
     },
     {
         "type":"Application",
-        "names":["Image Processing","Computer Vision","Machine Learning","Data Analysis","Optimization"],
+        "names":["Computer Vision","Machine Learning","Deep Learning","Image Processing"],
     }
 ]
