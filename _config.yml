@@ -4,17 +4,17 @@ encoding: utf-8
 #
 
 # Name of your site (displayed in the header)
-name: "Akshay Chavan | arccoder | OfficiallyTech"
+name: "Akshay Chavan | arccoder | arccoder Blog"
 
 # Name of the author
 author: "Akshay Chavan"
 
 # Short bio or description (displayed in the header)
-description: I am Akshay Chavan, arccoder, a software professional working in Computer Vision, Machine Learning, Image Processing, Data Analysis. Writes on OfficiallyTech.
+description: I am Akshay Chavan, arccoder, a software professional working in Computer Vision, Machine Learning, Image Processing, Data Analysis. Writes on arccoder Blog.
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: officiallytech
+disqus: arccoder Blog
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
