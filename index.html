@@ -19,6 +19,7 @@ title: Akshay Chavan
     td {
         border: none;
     }
+
 </style>
 
 <h3>Skills</h3>
@@ -27,51 +28,56 @@ title: Akshay Chavan
     <div id="skillsleft">
         <table style="width:100%;">
             <tbody>
-                <tr>
-                    <th style="text-align:left">
-                        <h4>{{ site.data.skills[0].type }}</h4>
-                    </th>
-                </tr>
-                {% for i in (0..4) %}
-                <tr>
-                    <td style="text-align:left">{{ site.data.skills[0].names[i] }}</td>
-                </tr>
-                {% endfor %}
+            <tr>
+                <th style="text-align:left">
+                    <h4>{{ site.data.skills[0].type }}</h4>
+                </th>
+            </tr>
+            {% for i in (0..4) %}
+            <tr>
+                <td style="text-align:left">{{ site.data.skills[0].names[i] }}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
     </div>
     <div id="skillsright">
         <table style="width:100%;">
             <tbody>
-                <tr>
-                    <th style="text-align:right">
-                        <h4>{{ site.data.skills[1].type }}</h4>
-                    </th>
-                </tr>
-                {% for i in (0..4) %}
-                <tr>
-                    <td style="text-align:right">{{ site.data.skills[1].names[i] }}</td>
-                </tr>
-                {% endfor %}
+            <tr>
+                <th style="text-align:right">
+                    <h4>{{ site.data.skills[1].type }}</h4>
+                </th>
+            </tr>
+            {% for i in (0..4) %}
+            <tr>
+                <td style="text-align:right">{{ site.data.skills[1].names[i] }}</td>
+            </tr>
+            {% endfor %}
             </tbody>
         </table>
     </div>
 </div>
 
 <hr>
-<h3>Latest <a href='/projects'>Projects</a></h3>
-{% for project in site.data.projects limit:4 %}
-    <h4><a href={{ project.link }}>{{ project.title }}</a></h4>
-    {{ project.tagline }}
-{% endfor %}
+
+<div id="medium-widget"></div>
+<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+<script>
+    MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@arccoder","postsPerLine":2,"limit":4,"picture":"big","fields":["description","author","claps","publishAt"],"ratio":"landscape"}})
+</script>
 
 <hr>
-<h3><a href="/blog/">arccoder Blog</a></h3>
-{% for post in site.posts limit:1 %}
-    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-    {{ post.content }}
-{% endfor %}
-<hr>
 
-<center><h3><a href="/etc/">Etc ...</a></h3></center>
+<h3>Papers</h3>
+{% for paper in site.data.papers %}
+<a href="{{ paper.doi }}" target="_blank">{{ paper.title }}</a>
+<a href="{{ paper.pdf }}" target="_blank" style="float:right">
+    <i class="fa fa-file-pdf-o"></i>
+</a>
+<br><br>
+{{ paper.abstract | strip_html | truncatewords:50 }}
+<a href="{{ post.url }}">Read more</a><br><br>
+{% endfor %}
+
 <hr>
